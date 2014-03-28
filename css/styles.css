@@ -20,6 +20,9 @@ h6, .h6 {
     color: #333;
 }
 
+p {
+    margin-bottom: 20px;
+}
 
 /*
  * Masthead for nav
@@ -157,4 +160,30 @@ h6, .h6 {
     text-align: center;
     background-color: #f9f9f9;
     border-top: 1px solid #e5e5e5;
+}
+
+/**
+ * Sponsors
+ */
+.sponsors ul {
+    list-style: none;
+    margin: 20px auto;
+    width: 520px;
+}
+
+.sponsors ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.sponsors img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+    -webkit-transition: all 500ms;-moz-transition: all 500ms;-ms-transition: all 500ms;-o-transition: all 500ms;transition: all 500ms;
+}
+
+.sponsors a:hover img {
+    filter: none;
+    -webkit-filter: grayscale(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 }
