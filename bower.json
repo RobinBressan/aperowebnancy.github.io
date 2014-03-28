@@ -1,0 +1,15 @@
+{
+    "name": "Apero Web Nancy",
+    "version": "0.0.1",
+    "homepage": "https://github.com/aperowebnancy/aperowebnancy.github.io",
+    "authors": [
+        "Jonathan Petitcolas <petitcolas.jonathan+aperoweb@gmail.com>",
+        "Emmanuel Quentin <emmanuel.quentin@gmail.com>",
+        "Daphné Popin <daphne.popin@gmail.com>"
+    ],
+    "description": "Le site des apéros web nancéiens",
+    "private": true,
+    "dependencies": {
+        "bootstrap": "3.0.*"
+    }
+}
