@@ -3,8 +3,9 @@ aperowebnancy.github.io
 
 # Compile sass
 
-You need bootstrap-sass for this : `gem install bootstrap-sass`
+First install compass: `gem install compass`
 
+Then install bootstrap-sass: `gem install bootstrap-sass`
 
 Sass files are in `sass` folder. To compile them just run `make style`.
 
