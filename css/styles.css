@@ -31,6 +31,9 @@ a:hover, a:focus {
    color: #920F16;
 }
 
+.glyphicon {
+    margin-right: 10px;
+}
 
 /*
  * Masthead for nav
