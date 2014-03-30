@@ -1,1 +1,6 @@
-exclude: ['README.md', 'config.rb', 'bower.json', 'sass']
+exclude:
+    - README.md
+    - config.rb
+    - bower.json
+    - sass
+    - Makefile
